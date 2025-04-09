@@ -1,0 +1,864 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    margin: auto;
+    overflow-x: hidden;
+
+}
+
+body p {
+    font-weight: 200;
+}
+
+.homepage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/firstpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.heading {
+    text-align: center;
+    padding: 0.1%;
+    background-color: #6FC276;
+}
+
+nav {
+    padding: 2% 4%;
+    display: flex;
+    gap: 5%;
+
+}
+
+nav span {
+    margin-right: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav i {
+    margin-left: 20%;
+    font-size: xx-large;
+}
+
+.home {
+    margin: 10% 25%;
+    text-align: center;
+    width: 45%;
+}
+
+.home h1 {
+    font-size: 60px;
+}
+
+.home button {
+    border: none;
+    padding: 2%;
+    background-color: #717271;
+    color: white;
+    width: 30%;
+    font-size: x-large;
+    margin-top: 3%;
+}
+
+.overview {
+    margin-top: 5%;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    font-size: 50px;
+}
+
+.sofa-with-text {
+    margin: 5% 5%;
+    display: flex;
+    gap: 5%;
+}
+
+.sofa-with-text i {
+    font-size: xx-large;
+    transform: rotate(35deg);
+    margin-left: 8%;
+}
+
+.red-sofa {
+    width: 100%;
+}
+
+.red-sofa img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 15px 18px -5px rgb(184, 182, 182);
+
+}
+
+.sofa-with-text div {
+    width: 50%;
+}
+
+.sofa-with-text h1 {
+    font-size: 60px;
+}
+
+#green-text {
+    color: #6FC276;
+}
+
+.sofa-with-text button {
+    width: 30%;
+    padding: 3%;
+    font-size: x-large;
+    border-radius: 25px;
+
+}
+
+#know-more {
+    background-color: #6FC276;
+    color: white;
+    border: none;
+    margin-right: 5%;
+}
+
+.icons {
+    margin-top: 5%;
+    background-color: #ebffe6;
+    display: flex;
+}
+
+.premium-quality {
+    display: flex;
+    width: 50%;
+    height: 30%;
+    gap: 5%;
+}
+
+.premium-quality img {
+    margin-top: 3%;
+    width: 25%;
+    height: 30%;
+}
+
+.protection {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    gap: 5%;
+}
+
+.protection img {
+    margin-top: 5%;
+    width: 20%;
+    height: 10%;
+}
+
+.shipping {
+    width: 60%;
+    height: 10%;
+    display: flex;
+    gap: 5%;
+}
+
+.shipping img {
+    margin-top: 2%;
+    width: 23%;
+    height: 10%;
+}
+
+.sustainable {
+    display: flex;
+    gap: 2%;
+    width: 60%;
+    height: 10%;
+}
+
+.sustainable img {
+    margin-top: 1%;
+    width: 26%;
+    height: 10%;
+}
+
+.screen-printing {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.screen-printing img {
+    border-radius: 5%;
+}
+
+.screen-printingimg {
+    margin: 6%;
+    display: flex;
+    gap: 1%;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.traditional {
+    width: 30%;
+}
+
+.traditional img {
+    width: 90%;
+    height: 70%;
+}
+
+.traditional i {
+    position: absolute;
+    left: 25%;
+    top: 85%;
+    font-size: 40px;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: rgb(180, 243, 243);
+}
+
+.advanced {
+    width: 25%;
+}
+
+.advanced img {
+    width: 100%;
+    height: 70%;
+}
+
+.advanced i {
+    position: absolute;
+    left: 52%;
+    top: 85%;
+    font-size: 40px;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: rgb(180, 243, 243);
+}
+
+.four-color {
+    width: 25%;
+}
+
+.four-color img {
+    width: 100%;
+    height: 70%;
+}
+
+.four-color i {
+    position: absolute;
+    left: 80%;
+    top: 85%;
+    font-size: 40px;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: rgb(180, 243, 243);
+}
+
+.client-praise {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.three-logos {
+    display: flex;
+    margin: 5%;
+    font-size: large;
+    gap: 5%;
+}
+
+.three-logos img {
+    width: 25%;
+    height: 80%;
+    box-shadow: 0px 15px 18px -5px rgb(184, 182, 182);
+}
+
+.adiyata {
+    display: flex;
+    width: 50%;
+    gap: 5%;
+}
+
+.adiyata img {
+    margin-top: 5%;
+    width: 30%;
+    height: 70%;
+}
+
+.arvind {
+    display: flex;
+    gap: 5%;
+}
+
+.rymond {
+    display: flex;
+    gap: 5%;
+}
+
+.quality {
+    margin: 15% 5%;
+    display: flex;
+    gap: 5%;
+}
+
+.quality i {
+    color: #6FC276;
+}
+
+.quality div {
+    width: 60%;
+}
+
+.quality img {
+    border-radius: 10%;
+    width: 40%;
+}
+
+.all-logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+
+#arvindo {
+    width: 5%;
+}
+
+#gap {
+    width: 4%;
+}
+
+#aditya {
+    width: 5%;
+}
+
+#markalar {
+    border: 1px solid;
+}
+
+.all-logos img {
+    width: 10%;
+    height: 25%;
+}
+
+.showcasing {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.three-images {
+    display: flex;
+    gap: 3%;
+    margin-left: 5%;
+}
+
+.three-images img {
+    width: 30%;
+    height: auto;
+    border-radius: 5%;
+}
+
+#girl {
+    margin-top: 2%;
+    width: 90%;
+    border-radius: 5%;
+}
+
+.reach-out {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.reach-out p {
+    margin-left: 25%;
+    text-align: center;
+    width: 60%;
+}
+
+.map {
+    background-image: url(Image/Map1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+
+.contact-us {
+    background-color: white;
+    box-shadow: 0px 15px 18px -5px rgb(184, 182, 182);
+    text-align: left;
+    padding: 0% 5% 1%;
+    width: 30%;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #212529;
+    color: white;
+    font-size: medium;
+}
+
+.being-best {
+    width: 30%;
+}
+
+.footer {
+    display: flex;
+    padding: 7% 5% 2% 3%;
+    gap: 5%;
+}
+
+.footer h3 {
+    font-weight: 200;
+}
+
+.footer img {
+    width: 10%;
+    height: 20%;
+}
+
+.head-office {
+    width: 30%;
+}
+
+.head-office div {
+    display: flex;
+    gap: 5%;
+    line-height: 30px;
+
+}
+
+#center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:430px) {
+
+
+    body {
+        font-family: "Poppins", sans-serif;
+        font-size: medium;
+        width: 430px;
+
+    }
+
+    .homepage {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/firstpage.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-bottom: 10%;
+    }
+
+    .heading {
+        font-size: small;
+        background-color: #6FC276;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    nav a {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    nav i {
+        position: absolute;
+        font-size: large;
+        position: absolute;
+        right: 3%;
+
+    }
+
+    .home {
+        width: 80%;
+        margin-left: 8%;
+
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home button {
+        border: none;
+        padding: 2%;
+        background-color: #717271;
+        color: white;
+        width: 40%;
+        margin-top: 3%;
+    }
+
+    .overview {
+        margin-top: 5%;
+        font-size: small;
+        text-align: center;
+        border-top: solid;
+        border-bottom: solid;
+    }
+
+    .sofa-with-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .red-sofa {
+        width: 100%;
+    }
+
+    .red-sofa img {
+        border-radius: 5%;
+        width: 400px;
+        height: 100%;
+        box-shadow: 0px 15px 18px -5px rgb(184, 182, 182);
+
+    }
+
+    .sofa-with-text div {
+        width: 100%;
+    }
+
+    .sofa-with-text h1 {
+        font-size: 30px;
+    }
+
+    #green-text {
+        color: #6FC276;
+        font-size: larger;
+    }
+
+    .sofa-with-text button {
+        width: 25%;
+        padding: 2%;
+        font-size: small;
+        border-radius: 25px;
+
+    }
+
+    #know-more {
+        background-color: #6FC276;
+        color: white;
+        border: none;
+        margin-right: 5%;
+    }
+
+    .icons {
+        margin-top: 5%;
+        background-color: #ebffe6;
+        display: flex;
+        font-size: small;
+        flex-direction: column;
+    }
+
+    .premium-quality {
+        display: flex;
+    }
+
+    .premium-quality img {
+        margin-top: 3%;
+        width: 25%;
+        height: 30%;
+    }
+
+    .protection img {
+        margin-top: 5%;
+        width: 20%;
+        height: 10%;
+    }
+
+    .shipping {
+        display: flex;
+        width: 60%;
+    }
+
+    .shipping img {
+        margin-top: 2%;
+        width: 23%;
+        height: 10%;
+    }
+
+    .sustainable {
+        display: flex;
+    }
+
+    .sustainable img {
+        margin-top: 1%;
+        width: 26%;
+    }
+
+    .screen-printing {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .screen-printing h1,
+    p {
+        font-size: 20px;
+    }
+
+    .screen-printing img {
+        border-radius: 5%;
+    }
+
+    .screen-printingimg {
+        margin: 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+    .traditional {
+        width: 90%;
+    }
+
+    .traditional img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .traditional i {
+        position: absolute;
+        left: 85%;
+        top: 20%;
+        font-size: 20px;
+        padding: 1%;
+        border-radius: 50%;
+        background-color: rgb(180, 243, 243);
+    }
+
+    .advanced {
+        width: 90%;
+    }
+
+    .advanced img {
+        width: 90%;
+        height: 70%;
+    }
+
+    .advanced i {
+        position: absolute;
+        left: 85%;
+        top: 55%;
+        font-size: 20px;
+        padding: 1%;
+        border-radius: 50%;
+        background-color: rgb(180, 243, 243);
+    }
+
+    .four-color {
+        width: 100%;
+    }
+
+    .four-color img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .four-color i {
+        position: absolute;
+        left: 80%;
+        top: 89%;
+        font-size: 20px;
+        padding: 1%;
+        border-radius: 50%;
+        background-color: rgb(180, 243, 243);
+    }
+
+    .client-praise {
+        margin-top: 25%;
+        text-align: center;
+    }
+
+    .client-praise p {
+        font-size: medium;
+    }
+
+    .three-logos h1 {
+        font-size: medium;
+    }
+
+    .three-logos {
+        display: flex;
+        font-size: 5px;
+    }
+
+    .three-logos img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .adiyata {
+        display: flex;
+    }
+
+    .adiyata img {
+        margin-top: 57px;
+        width: 35%;
+
+    }
+
+    .arvind {
+        display: flex;
+        margin-left: 7%;
+    }
+
+    .arvind img {
+        margin-top: 57px;
+    }
+
+    .rymond {
+        display: flex;
+    }
+
+    .rymond img {
+        margin-top: 57px;
+    }
+
+    .quality {
+        display: flex;
+        gap: 5%;
+        flex-direction: column;
+    }
+
+    .quality i {
+        color: #6FC276;
+    }
+
+    .quality div {
+        width: 100%;
+        font-size: small;
+    }
+
+    .quality img {
+        border-radius: 10%;
+        width: 100%;
+    }
+
+    .all-logos {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 1%;
+    }
+
+    #arvindo {
+        width: 5%;
+    }
+
+    #gap {
+        width: 4%;
+    }
+
+    #aditya {
+        width: 5%;
+    }
+
+    #markalar {
+        border: 1px solid;
+    }
+
+    .all-logos img {
+        width: 10%;
+        height: 25%;
+    }
+
+    .showcasing {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .three-images {
+        display: flex;
+        gap: 3%;
+        margin-left: 5%;
+    }
+
+    .three-images img {
+        width: 30%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+    #girl {
+        margin-top: 2%;
+        width: 90%;
+        border-radius: 5%;
+    }
+
+    .reach-out {
+        text-align: center;
+    }
+
+    .map {
+        background-image: url(Image/Map1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact-us {
+        background-color: white;
+        box-shadow: 0px 15px 18px -5px rgb(184, 182, 182);
+        text-align: left;
+        width: 70%;
+        height: 10%;
+        line-height: 6px;
+        font-size: small;
+    }
+
+    footer {
+        font-size: 10px;
+        margin-top: 10%;
+        background-color: #212529;
+        color: white;
+    }
+
+
+    .footer {
+        display: flex;
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+
+    .footer img {
+        width: 10%;
+        height: 20%;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+
+    #center {
+        font-size: 10px;
+        text-align: center;
+    }
+}
